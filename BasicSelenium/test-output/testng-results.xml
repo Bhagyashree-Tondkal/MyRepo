@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-18T10:08:40 IST" name="Default suite" finished-at="2026-08-18T10:08:41 IST" duration-ms="1458">
+    <groups>
+    </groups>
+    <test started-at="2026-08-18T10:08:40 IST" name="Default test" finished-at="2026-08-18T10:08:41 IST" duration-ms="1458">
+      <class name="DDT.To_get_multiple_data">
+        <test-method signature="ddt()[pri:0, instance:DDT.To_get_multiple_data@3270d194]" started-at="2026-08-18T10:08:40 IST" name="ddt" finished-at="2026-08-18T10:08:41 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddt -->
+      </class> <!-- DDT.To_get_multiple_data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
