@@ -7,6 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	//Declaration
+	
+	@FindBy (xpath="//input[@id='Email']")
+	private WebElement TextField;
+	
+	public WebElement getTextField() {
+		return TextField;
+	}
+
 	@FindBy (xpath="//input[@id='Email']")
 	private WebElement EmailTextField;
 	
