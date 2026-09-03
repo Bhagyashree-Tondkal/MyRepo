@@ -12,6 +12,13 @@ public class Home_Page {
 		PageFactory.initElements(driver,this);
 	}
 	
+	@FindBy(linkText = "Products")
+	private WebElement productslink ;
+	
+	public WebElement getProductslink() {
+		return productslink;
+	}
+
 	@FindBy(linkText = "Organizations")
 	private WebElement Org_link;
 	
@@ -25,5 +32,4 @@ public class Home_Page {
 
 	@FindBy(linkText = "Contacts")
 	private WebElement contacts_link;
-
 }
